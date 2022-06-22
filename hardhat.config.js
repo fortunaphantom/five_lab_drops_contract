@@ -23,18 +23,6 @@ module.exports = {
       url: process.env.ROPSTEN_URL,
       accounts: [process.env.PRIVATE_KEY]
     },
-    kovan: {
-      url: process.env.KOVAN_URL,
-      accounts: [process.env.PRIVATE_KEY]
-    },
-    rinkeby: {
-      url: process.env.RINKEBY_URL,
-      accounts: [process.env.PRIVATE_KEY]
-    },
-    fuji: {
-      url: "https://api.avax-test.network/ext/bc/C/rpc",
-      accounts: [process.env.PRIVATE_KEY]
-    },
   },
   namedAccounts: {
     account0: 0
